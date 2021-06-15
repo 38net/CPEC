@@ -1,0 +1,697 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Customize css */
+body {
+    font-size: 16px;
+    font-family: PingFangtC-Regular, sans-serif;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo a {
+
+    background: url('images/logo-all-dark.svg') no-repeat;
+    width: 222px;
+    height: 40px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav-items a {
+    margin-right: 60px;
+    display: block;
+    width: 32px;
+
+}
+
+
+nav img {
+    width: 24px;
+    height: 24px;
+}
+
+.banner img {
+    max-width: 100%;
+
+}
+
+.menu {
+    width: 300px;
+}
+
+.menu h2,
+.menu li {
+    line-height: 65px;
+    text-align: center;
+}
+
+.menu li {
+    border-bottom: 1px solid #EAF0ED;
+    border-left: 1px solid #EAF0ED;
+    border-right: 1px solid #EAF0ED;
+}
+
+.menu li:hover,
+.menu li:focus {
+    background-color: #EAF0ED;
+}
+
+.menu-list {
+    width: 620px;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+}
+
+.today-tag {
+    background-color: #3F5D45;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    left: 20px;
+    writing-mode: vertical-lr;
+
+}
+
+.heart-logo {
+    position: absolute;
+    right: 22px;
+    top: 19px;
+
+}
+
+
+.menu-list img {
+    display: block;
+}
+
+
+.menu-list h3 {
+    line-height: 65px;
+
+}
+
+
+.menu-price {
+    border: 1px solid #EAF0ED;
+}
+
+.menu-price li {
+    line-height: 56px;
+
+}
+
+.menu-price li:first-child {
+    width: 172px;
+    /* border-right:1px solid #EAF0ED; */
+    border-right: 1px solid #EAF0ED;
+
+}
+
+.menu-price li:last-child {
+    width: 126px;
+
+
+}
+
+.add-item:hover {
+    background-color: #3F5D45;
+    color: #fff;
+}
+
+
+.page-index {
+    line-height: 60px;
+
+}
+
+.page-index li:first-child {
+
+    border-left: 1px solid #EAF0ED;
+
+}
+
+.page-index li {
+    width: 60px;
+    text-align: center;
+    border-top: 1px solid #EAF0ED;
+    border-bottom: 1px solid #EAF0ED;
+    border-right: 1px solid #EAF0ED;
+
+
+}
+
+.page-index img {
+    vertical-align: middle;
+
+
+}
+
+.page-item a:hover {
+    background-color: #3F5D45;
+    color: #fff;
+}
+
+.subscribe {
+    padding: 30px 300px;
+}
+
+.subscribe-title img {
+    width: 40px;
+    height: 40px;
+}
+
+.mail {
+    width: 380px;
+    height: 56px;
+    padding: 20px 0;
+}
+
+
+.mail img:first-child {
+
+    width: 24px;
+    height: 24px;
+
+}
+
+.arrow-block {
+    width: 64px;
+    height: 56px;
+    padding: 8px 4px;
+}
+
+.arrow-block img {
+
+    width: 16px;
+    height: 16px;
+    margin: 0 auto;
+
+}
+
+.footer {
+    padding: 30px 300px;
+
+}
+
+.footer-logo {
+    width: 172px;
+    height: 27px;
+}
+
+.footer-right img {
+    width: 60px;
+    height: 233px;
+}
+
+/* @media only screen and (min-width: 600px) {
+    
+  }
+
+@media only screen and (min-width: 768px){
+
+} */
+
+
+/* format setting */
+
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+
+}
+
+.flex-dir-column {
+    flex-direction: column;
+
+}
+
+/* flex setting */
+.jc-space-between {
+    justify-content: space-between;
+}
+
+.jc-flex-end {
+    justify-content: flex-end;
+}
+
+
+.ai-center {
+    align-items: center;
+
+}
+
+.ai-flex-end {
+    align-items: flex-end
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+
+}
+
+
+
+/* font-size */
+
+.fz-1 {
+    font-size: 16px;
+}
+
+.fz-2 {
+    font-size: 20px;
+}
+
+.fz-3 {
+    font-size: 24px;
+}
+
+.fz-4 {
+    font-size: 32px;
+
+}
+
+.line-h-3 {
+    line-height: 24px;
+}
+
+
+
+/* font-weight */
+.fw-6 {
+    font-weight: 600;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-bolder {
+    font-weight: bolder;
+}
+
+/* color setting */
+
+.color-primary {
+    color: #3F5D45;
+}
+
+.color-secondary {
+    color: #fff;
+}
+
+.bg-primary {
+    background-color: #3F5D45;
+}
+
+.bg-secondary {
+    background-color: #EAF0ED;
+
+}
+
+.bg-darkgreen {
+    background-color: #3F5D45;
+}
+
+.bg-yellow {
+    background-color: #FFE180;
+}
+
+/* spacing */
+.m0-auto {
+    margin: 0 auto;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+
+.mb-1 {
+    margin-bottom: 20px;
+}
+
+.mb-2 {
+    margin-bottom: 30px;
+}
+
+.mb-6 {
+    margin-bottom: 46px;
+}
+
+.mb-7 {
+    margin-bottom: 60px;
+}
+
+.ms-1 {
+    margin-left: 20px;
+}
+
+.me-1 {
+    margin-right: 20px;
+}
+
+.pt-5 {
+    padding-top: 20px;
+}
+
+.pb-5 {
+    padding-bottom: 20px;
+}
+
+.ps-6 {
+    padding-left: 24px;
+}
+
+.pe-6 {
+    padding-end: 24px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 414px) {
+
+    body {
+        /* width: 320px; */
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .container {
+        /* width: 320px; */
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .small-menu {
+        width: 100%;
+    }
+
+    .menu {
+        margin-right: 0 !important;
+    }
+
+
+
+
+    .logo,
+    .nav {
+        display: none;
+    }
+
+    .active {
+
+        background: url('images/logotype-sm-dark.svg') no-repeat;
+        width: 172px;
+        text-indent: 150%;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0 auto;
+        background-position: center;
+        display: inline-block;
+        position: absolute;
+        left: 64px;
+    }
+
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        background-color: #fff;
+        position: relative;
+        height: 60px;
+    }
+
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+
+    }
+
+
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: white;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #3F5D45;
+    }
+
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #fff;
+        /* color: #3F5D45; */
+    }
+
+    #myLinks a {
+        background-color: #fff;
+        color: #3f5d45;
+        display: block;
+        text-align: center;
+        border-top: 1px solid #EAF0ED;
+        border-bottom: 1px solid #EAF0ED;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    #myLinks a:hover {
+
+        background-color: #EAF0ED;
+
+
+    }
+
+    .cart {
+        position: absolute;
+        right: 25px;
+        top: 10px;
+    }
+
+    .banner img {
+        width: 300px;
+
+    }
+
+    .subscribe {
+        flex-direction: column !important;
+        padding: 10px 10px;
+    }
+
+    .mail {
+        width: 280px;
+        height: auto;
+        padding: 0;
+        /* /* padding: 20px 10px; */
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 10px 10px;
+
+    }
+
+    .footer-logo {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .footer-left-bottom {
+        margin-bottom: 30px;
+
+    }
+
+    .footer-right img {
+        display: none;
+    }
+
+    .footer-right p {
+        align-self: flex-start;
+    }
+
+
+}
+
+@media only screen and (min-width: 415px) {
+
+    .small-menu {
+        display: none;
+    }
+
+}
+
+/* @media only screen and (min-width: 768px){
+
+   
+} */
